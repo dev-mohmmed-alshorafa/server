@@ -5,7 +5,7 @@ const card = mongoose.Schema
 const NewCard = new card({
   id: String,
   nameCard: String,
-  price: Number,
+  price: String,
   img: String,
   category: String,
 })
